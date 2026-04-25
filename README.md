@@ -119,10 +119,11 @@ https://www.linkedin.com/in/diego-silva-profile/
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
-Sinta-se livre para usar e modificar.
+© 2026 Synthetic Support. Todos os direitos reservados.
 
----
+Este projeto não está autorizado para uso, cópia, modificação, distribuição ou reprodução, total ou parcial, sem permissão prévia por escrito do autor.
+
+O uso não autorizado deste material pode resultar em medidas legais.
 
 ## 💡 Observação
 

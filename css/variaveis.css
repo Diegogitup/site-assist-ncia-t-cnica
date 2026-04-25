@@ -1,0 +1,79 @@
+:root {
+
+  /* CORES BASE (FUNDO)*/
+
+  --color-bg-main: rgb(11, 19, 38);             
+  --color-bg-secondary: rgb(29, 40, 58);         
+  --color-bg-light: #273449;             
+  --segundo-bg-section: rgba(6, 14, 32, 1); 
+  --color-card-bg: rgba(45, 52, 73, 0.6);
+  --color-bg-footer: rgb(15 23 42 / 0.5);       
+
+  /*SUPERFÍCIES (CAMADAS*/
+
+  --surface-base: #0b1326;
+  --surface-low: #121a33;
+  --surface-medium: #1a2340;
+  --surface-high: #222c4d;
+  --surface-top: #2b3560;
+
+  /* CORES PRINCIPAIS (NEON) */
+
+  --color-primary: rgb(173, 198, 255);             
+  --color-secondary: rgb(173, 198, 255);    
+  --color-tertiary: #a078ff;
+             
+       
+  /*GRADIENTES*/
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    #adc6ff 0%,
+    #a078ff 100%
+    
+  );
+  
+
+  --gradient-soft: linear-gradient(
+    135deg,
+    rgba(173, 198, 255, 0.2),
+    rgba(160, 120, 255, 0.2)
+  );
+
+  --gradient-glow: linear-gradient(
+    135deg,
+    rgba(173, 198, 255, 0.6),
+    rgba(160, 120, 255, 0.6)
+  );
+
+  /*TEXTO */
+
+  --text-primary: #dae2fd;         
+  --text-secondary: rgb(159, 176, 209);
+  --text-muted: rgb(108, 122, 166);
+  --text-paragrafo: rgba(194, 198, 214, 0.822);
+  --text-footer: rgba(100, 116, 139, 0.7);
+
+  
+  /* BORDAS (QUASE INVISÍVEIS) */
+
+  --border-ghost: rgba(255, 255, 255, 0.15);
+
+  /* GLASS (VIDRO)*/
+
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-blur: blur(20px);
+
+  /* SOMBRAS (BRILHO)*/
+
+  --shadow-glow: 0 0 20px rgba(173, 198, 255, 0.356);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
+  --header-shadow: 0 40px 40px -5px rgba(59, 130, 246, 0.08);
+  --ring-offset-shadow: 0 0 #0000;
+  --ring-shadow: 0 0 #0000;
+
+ 
+  /*FONTE*/
+
+  --fonte-space: 'Space Grotesk', sans-serif;
+}

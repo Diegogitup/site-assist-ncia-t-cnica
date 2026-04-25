@@ -1,0 +1,131 @@
+/*ESTILIZANDO HEADER*/
+
+@media (max-width: 751px) {
+  .btn-orcamento {
+    display: none;
+  }
+  .btn-burg {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    
+  }
+
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    z-index: 70;
+    padding: 2rem 3rem;
+    gap: 0.7rem;
+    background: var(--color-bg-secondary);
+    opacity: 0.99;
+    
+  }
+}
+
+/*Layout responsivo*/
+
+@media (max-width: 955px) {
+  .home-content {
+    grid-template-columns: minmax(0, 1fr);
+    text-align: center;
+    justify-self: center;
+  }
+  .home-img {
+    display: none;
+  }
+  .home-paragrafo {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  /*ESTILIZANDO SECTION SERVIÇO TÈCNICO*/
+
+  .container-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /*ESTILIZANDO SECTION NOSSO SERVIÇO */
+
+  .por-que-escolher__conteudo {
+    flex-direction: column;
+  }
+  .por-que-escolher__img {
+    width: 100%;
+    filter: grayscale(0.5);
+    background-color: var(--color-bg-light);
+  }
+
+  .por-que-escolher__img img {
+    width: 100%;
+    height: 400px;
+  }
+
+  /*ESTILIZANDO SECTION Solicite Orçamento */
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /*ESTILIZANDO SECTION ENDEREÇO */
+  .visit-container {
+    flex-direction: column;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  /*ESTILIZANDO FOOTER */
+
+  .footer {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .home-text .titulo {
+    font-size: 4rem;
+  }
+
+  .home-paragrafo {
+    font-size: 1rem;
+  }
+  /*ESTILIZANDO SECTION SERVIÇO TÈCNICO*/
+
+  .container-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /*ESTILIZANDO SECTION NOSSO SERVIÇO*/
+  .por-que-escolher__lista {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+
+  /*ESTILIZANDO SECTION FORMULARIO*/
+  .input-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.5rem;
+  }
+  .form-label {
+    font-size: 0.8rem;
+  }
+
+  /*ESTILIZANDO SECTION ENDEREÇO*/
+  .endereco-container {
+    width: 100%;
+  }
+}
